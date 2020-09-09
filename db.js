@@ -1,15 +1,7 @@
 const mySql = require("mysql");
 const config = require("config");
 
-const setConfig = (value) => {
-  return config.get(value);
-};
-let db = mySql.createConnection({
-  host: "localhost",
-  user: setConfig("user"),
-  password: setConfig("password"),
-  database: setConfig("database"),
-});
+let db = mySql.createConnection(config.get("db"));
 
 module.exports = () => {
   db.connect((err) => {
