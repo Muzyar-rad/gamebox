@@ -17,4 +17,12 @@ router.get("/populateProducts", (req, res) => {
   });
 });
 
+router.get("/", (req, res) => {
+  const sql = "SELECT * FROM products";
+  db.query(sql, (err, res) => {
+    if (err) console.log(errs);
+    console.log(res);
+  });
+});
+
 module.exports = router;
