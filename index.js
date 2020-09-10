@@ -1,5 +1,9 @@
 const express = require("express");
+const config = require("config");
+const { dbConnection } = require("./db");
 const app = express();
 
-require("./db")();
-app.listen(3000, () => console.log("Listening on 3000..."));
+dbConnection();
+
+const port = process.env.PORT || config.get("port");
+app.listen(port, () => console.log(`Listening on ${port}...`));

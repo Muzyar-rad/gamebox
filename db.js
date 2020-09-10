@@ -1,9 +1,10 @@
 const mySql = require("mysql");
 const config = require("config");
 
-let db = mySql.createConnection(config.get("db"));
+const db = mySql.createConnection(config.get("db"));
 
-module.exports = () => {
+exports.db = db;
+exports.dbConnection = () => {
   db.connect((err) => {
     if (err) {
       console.log(err);
