@@ -2,7 +2,7 @@ const express = require("express");
 const { db } = require("../db");
 const router = express.Router();
 
-router.get("/modifycolumn", (req, res) => {
+router.get("/1", (req, res) => {
   const sql =
     'ALTER TABLE "products" MODIFY COLUMN productID int auto_increment primary key';
   db.query(sql, (err, res) => {
@@ -10,7 +10,7 @@ router.get("/modifycolumn", (req, res) => {
     console.log(res);
   });
 });
-router.get("/getproducts", (req, res) => {
+router.get("/2", (req, res) => {
   const sql =
     "INSERT INTO products (name, description, imagePath, price) VALUES ?";
   const values = [
@@ -19,8 +19,10 @@ router.get("/getproducts", (req, res) => {
     ["Aurora10", "This is an awesome desktop 3", "/local/2", "$5,999.00"],
     ["Aurora11", "This is an awesome desktop 4", "/local/d", "$6,999.00"],
   ];
-  db.query(sql, [values], (err, res) => {
+  db.query(sql, values, (err, res) => {
     if (err) throw err;
     console.log(res);
   });
 });
+
+module.exports = router;
