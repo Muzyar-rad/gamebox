@@ -1,5 +1,5 @@
 const express = require("express");
-const { db } = require("../db");
+const { db } = require("../startup/db");
 const router = express.Router();
 
 router.get("/populateProducts", (req, res) => {
