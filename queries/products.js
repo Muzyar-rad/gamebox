@@ -19,7 +19,7 @@ router.get("/2", (req, res) => {
     ["Aurora10", "This is an awesome desktop 3", "/local/2", "$5,999.00"],
     ["Aurora11", "This is an awesome desktop 4", "/local/d", "$6,999.00"],
   ];
-  db.query(sql, values, (err, res) => {
+  db.query(sql, [values], (err, res) => {
     if (err) throw err;
     console.log(res);
   });
