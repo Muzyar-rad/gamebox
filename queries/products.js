@@ -2,15 +2,7 @@ const express = require("express");
 const { db } = require("../db");
 const router = express.Router();
 
-router.get("/1", (req, res) => {
-  const sql =
-    'ALTER TABLE "products" MODIFY COLUMN productID int auto_increment primary key';
-  db.query(sql, (err, res) => {
-    if (err) console.log(err);
-    console.log(res);
-  });
-});
-router.get("/2", (req, res) => {
+router.get("/populateProducts", (req, res) => {
   const sql =
     "INSERT INTO products (name, description, imagePath, price) VALUES ?";
   const values = [
