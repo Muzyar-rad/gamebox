@@ -25,4 +25,12 @@ router.get("/", (req, res) => {
   });
 });
 
+router.get("/:id", (req, res) => {
+  const sql = "SELECT * FROM Products where productId = ?";
+  db.query(sql, [parseInt(req.params.id)], (err, res) => {
+    if (err) console.log(err);
+    console.log(res[0]);
+  });
+});
+
 module.exports = router;
