@@ -1,0 +1,26 @@
+{
+  "name": "gamebox",
+  "version": "1.0.0",
+  "description": "An e-commerce website for buying gaming desktop and it's cool tools!",
+  "main": "index.js",
+  "dependencies": {
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muzyar-rad/gamebox.git"
+  },
+  "author": "Muzyar Rad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Muzyar-rad/gamebox/issues"
+  },
+  "homepage": "https://github.com/Muzyar-rad/gamebox#readme"
+}
