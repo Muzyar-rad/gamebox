@@ -4,6 +4,7 @@
   "description": "An e-commerce website for buying gaming desktop and it's cool tools!",
   "main": "index.js",
   "dependencies": {
+    "boostrap": "^2.0.0",
     "config": "^3.3.1",
     "express": "^4.17.1",
     "mysql": "^2.18.1",
