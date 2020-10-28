@@ -3,7 +3,7 @@ import React, {useState,useEffect} from 'react'
 
 
 const NavBar = () => {
-    return <div></div>;
+    return <div>Testing</div>;
 }
  
 export default NavBar;
