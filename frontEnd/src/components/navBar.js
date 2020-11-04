@@ -4,7 +4,7 @@ import "../css/navBar.css";
 const NavBar = () => {
   return (
     <div className="container-fluid">
-      <div className="topNav">GameBox</div>
+      <div className="topNav mb-3">GameBox</div>
       <nav className="navbar navbar-expand-lg navbar-light">
         <a className="navbar-brand" href="#">
           Navbar
