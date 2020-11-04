@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <div className="container-fluid">
       <div className="topNav mb-3">GameBox</div>
-      <nav className="navbar navbar-expand-lg navbar-light">
+      <nav className="navbar navbar-expand-lg">
         <a className="navbar-brand" href="#">
           Navbar
         </a>
