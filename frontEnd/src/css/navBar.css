@@ -1,12 +1,15 @@
 div.topNav {
-  max-width: 100%;
-  height: 150px;
-  background-color: #29b6f6;
-  border: 2px solid #ffd95b;
-}
-
-nav {
   color: #ffd95b;
   background-color: #29b6f6;
   border: 2px solid #ffd95b;
+  max-width: 100%;
+  height: 150px;
+}
+
+.nav {
+  background-color: #29b6f6;
+  border: 2px solid #ffd95b;
+}
+.nav-item {
+  color: #ffd95b;
 }
