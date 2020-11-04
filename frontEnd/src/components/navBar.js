@@ -1,9 +1,10 @@
 import React from "react";
+import "../css/navBar.css";
 
 const NavBar = () => {
   return (
     <div className="container-fluid">
-      <div className="topNav"></div>
+      <div className="topNav">GameBox</div>
       <nav className="navbar navbar-expand-lg navbar-light">
         <a className="navbar-brand" href="#">
           Navbar
