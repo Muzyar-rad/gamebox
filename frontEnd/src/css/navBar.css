@@ -5,7 +5,9 @@ div.topNav {
   max-width: 100%;
   height: 150px;
 }
-
+div.topNav:hover {
+  cursor: pointer;
+}
 .nav {
   background-color: #29b6f6;
   border: 2px solid #ffd95b;

@@ -1,23 +1,27 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../css/navBar.css";
 
 const NavBar = () => {
   return (
     <div className="container-fluid">
-      <div className="topNav mb-3">GameBox</div>
+      <div className="topNav d-flex align-items-center justify-content-around mb-3">
+        <div className="ml-3">GameBox</div>
+        <div>Time</div>
+      </div>
       <nav class="nav nav-pills nav-justified">
-        <a class="nav-item nav-link" href="#">
+        <Link class="nav-item nav-link" to="#">
           Active
-        </a>
-        <a class="nav-item nav-link" href="#">
+        </Link>
+        <Link class="nav-item nav-link" to="#">
           Link
-        </a>
-        <a class="nav-item nav-link" href="#">
+        </Link>
+        <Link class="nav-item nav-link" to="#">
           Link
-        </a>
-        <a class="nav-item nav-link" href="#">
+        </Link>
+        <Link class="nav-item nav-link" to="#">
           Disabled
-        </a>
+        </Link>
       </nav>
     </div>
   );
