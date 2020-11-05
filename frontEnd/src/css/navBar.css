@@ -8,6 +8,17 @@ div.topNav {
 div.topNav:hover {
   cursor: pointer;
 }
+
+div.cart {
+  font-size: 25px;
+}
+
+p.badge {
+  color: #29b6f6;
+  background-color: #ffd95b;
+  border-radius: 10px;
+}
+
 .nav {
   background-color: #29b6f6;
   border: 2px solid #ffd95b;

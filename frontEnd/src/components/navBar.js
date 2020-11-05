@@ -7,7 +7,8 @@ const NavBar = () => {
     <div className="container-fluid">
       <div className="topNav d-flex align-items-center justify-content-around mb-3">
         <div className="ml-3">GameBox</div>
-        <div>
+        <div className="d-flex align-items-baseline justify-content-between cart">
+          <p className="badge">0</p>
           <i class="fa fa-shopping-cart" aria-hidden="true"></i>
         </div>
       </div>
