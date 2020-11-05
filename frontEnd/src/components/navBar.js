@@ -11,16 +11,16 @@ const NavBar = () => {
       </div>
       <nav class="nav nav-pills nav-justified">
         <Link class="nav-item nav-link" to="#">
-          Active
+          DESKTOPS
         </Link>
         <Link class="nav-item nav-link" to="#">
-          Link
+          LAPTOPS
         </Link>
         <Link class="nav-item nav-link" to="#">
-          Link
+          GEARSHOP
         </Link>
         <Link class="nav-item nav-link" to="#">
-          Disabled
+          GIFT CARDS
         </Link>
       </nav>
     </div>
