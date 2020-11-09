@@ -1,7 +1,7 @@
 import React from "react";
 
 const Carousal = () => {
-  return 
+  return <div></div>;
 };
 
 export default Carousal;
