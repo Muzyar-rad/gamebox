@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Carousal = () => {
+  const img1 = "../assets/2.jpg";
   return (
     <div
       id="carouselExampleFade"
@@ -10,25 +11,13 @@ const Carousal = () => {
     >
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img
-            src={"../assets/baelen.jpg"}
-            className="d-block w-100"
-            alt="Number 1"
-          />
+          <img alt="Number 1" src={img1} className="d-block w-100" />
         </div>
         <div className="carousel-item">
-          <img
-            src={"../assets/2.jpg"}
-            className="d-block w-100"
-            alt="Number 2"
-          />
+          <img alt="Number 2" src={img1} className="d-block w-100" />
         </div>
         <div className="carousel-item">
-          <img
-            src={"../assets/3.jpg"}
-            className="d-block w-100"
-            alt="Number 3"
-          />
+          <img src={img1} className="d-block w-100" alt="Number 3" />
         </div>
       </div>
       <Link
