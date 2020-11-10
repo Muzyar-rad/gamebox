@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "./components/navBar";
 import Carousal from "./components/carousal";
-import "./App.css";
+import "./css/App.css";
 function App() {
   return (
     <div className="main mh-100">
