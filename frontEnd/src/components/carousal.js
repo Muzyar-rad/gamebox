@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../css/carousal.css";
 import img1 from "../assets/2.jpg";
 import img2 from "../assets/3.png";
 import img3 from "../assets/baelen.jpg";
+import "../css/carousal.css";
 
 const Carousal = () => {
   return (
@@ -30,8 +30,7 @@ const Carousal = () => {
           role="button"
           data-slide="prev"
         >
-          <div className="arrowCss">◀</div>
-          <span className="sr-only">Previous</span>
+          <i className="fa fa-arrow-left arrowCss"></i>
         </a>
         <a
           className="carousel-control-next"
@@ -39,8 +38,7 @@ const Carousal = () => {
           role="button"
           data-slide="next"
         >
-          <div className="arrowCss">▶</div>
-          <span className="sr-only">Next</span>
+          <i className="fa fa-arrow-right arrowCss"></i>
         </a>
       </div>
     </div>

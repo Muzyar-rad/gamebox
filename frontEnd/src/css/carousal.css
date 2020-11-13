@@ -5,10 +5,8 @@ img {
   border: 2px solid #ffd95b;
 }
 
-.arrowCss {
-  width: 70px;
-  color: maroon;
+i.arrowCss {
+  color: #ffd95b;
   cursor: pointer;
-  font-size: 2rem;
-  position: absolute;
+  font-size: 30px;
 }
