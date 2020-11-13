@@ -1,8 +1,14 @@
 img {
+  margin: auto;
+  /* min-width: 100%; */
   height: 400px;
   border: 2px solid #ffd95b;
 }
 
-.carousel-control-prev-icon {
-  color: yellow;
+.arrowCss {
+  width: 70px;
+  color: maroon;
+  cursor: pointer;
+  font-size: 2rem;
+  position: absolute;
 }

@@ -15,13 +15,13 @@ const Carousal = () => {
       >
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img alt="Number 1" src={img1} className="d-block w-50" />
+            <img alt="Number 1" src={img1} className="d-block" />
           </div>
           <div className="carousel-item">
-            <img alt="Number 2" src={img2} className="d-block w-50" />
+            <img alt="Number 2" src={img2} className="d-block" />
           </div>
           <div className="carousel-item">
-            <img src={img3} className="d-block w-50" alt="Number 3" />
+            <img alt="Number 3" src={img3} className="d-block" />
           </div>
         </div>
         <a
@@ -30,10 +30,7 @@ const Carousal = () => {
           role="button"
           data-slide="prev"
         >
-          <span
-            className="carousel-control-prev-icon"
-            aria-hidden="true"
-          ></span>
+          <div className="arrowCss">◀</div>
           <span className="sr-only">Previous</span>
         </a>
         <a
@@ -42,10 +39,7 @@ const Carousal = () => {
           role="button"
           data-slide="next"
         >
-          <span
-            className="carousel-control-next-icon"
-            aria-hidden="true"
-          ></span>
+          <div className="arrowCss">▶</div>
           <span className="sr-only">Next</span>
         </a>
       </div>
