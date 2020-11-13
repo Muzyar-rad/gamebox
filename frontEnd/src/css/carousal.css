@@ -1,4 +1,8 @@
 img {
-  height: 300px;
-  width: 10px;
+  height: 400px;
+  border: 2px solid #ffd95b;
+}
+
+.carousel-control-prev-icon {
+  color: yellow;
 }

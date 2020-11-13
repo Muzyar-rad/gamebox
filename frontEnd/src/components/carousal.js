@@ -7,7 +7,7 @@ import img3 from "../assets/baelen.jpg";
 
 const Carousal = () => {
   return (
-    <div className="container">
+    <div className="mt-4 container">
       <div
         id="carouselExampleFade"
         className="carousel slide carousel-fade"
