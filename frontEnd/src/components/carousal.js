@@ -7,7 +7,7 @@ import "../css/carousal.css";
 
 const Carousal = () => {
   return (
-    <div className="mt-4 container">
+    <div className="my-4 container">
       <div
         id="carouselExampleFade"
         className="carousel slide carousel-fade"
