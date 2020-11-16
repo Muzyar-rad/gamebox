@@ -1,7 +1,7 @@
 div.topNav {
-  color: orange;
+  color: #ffd600;
   background-color: #29b6f6;
-  border: 2px solid orange;
+  border: 2px solid #ffd600;
   max-width: 100%;
   height: 150px;
 }
@@ -15,7 +15,7 @@ div.cart {
 
 p.badge {
   color: #29b6f6;
-  background-color: orange;
+  background-color: #ffd600;
   border-radius: 10px;
 }
 
@@ -24,12 +24,12 @@ p.badge {
   border: 2px solidorange;
 }
 .nav-item {
-  color: orange;
+  color: #ffd600;
 }
 
 .nav-item:hover {
   color: #29b6f6;
-  background-color: orange;
+  background-color: #ffd600;
   border-radius: 0px;
 }
 

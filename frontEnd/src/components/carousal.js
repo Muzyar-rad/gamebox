@@ -15,13 +15,13 @@ const Carousal = () => {
       >
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img alt="Number 1" src={img1} className="d-block" />
+            <img alt="Number 1" src={img1} className="d-block mx-auto" />
           </div>
           <div className="carousel-item">
-            <img alt="Number 2" src={img2} className="d-block" />
+            <img alt="Number 2" src={img2} className="d-block mx-auto" />
           </div>
           <div className="carousel-item">
-            <img alt="Number 3" src={img3} className="d-block" />
+            <img alt="Number 3" src={img3} className="d-block mx-auto" />
           </div>
         </div>
         <a
