@@ -8,7 +8,7 @@ const NavBar = () => {
       <div className="topNav d-flex align-items-center justify-content-between mb-3">
         <div className="ml-3">GameBox</div>
         <div className="d-flex justify-content-between m-5 pt-3 cart">
-          <p className="badge">0</p>
+          <p>0 items</p>
           <i className="fa fa-shopping-cart" aria-hidden="true"></i>
         </div>
       </div>
@@ -21,9 +21,6 @@ const NavBar = () => {
         </Link>
         <Link className="nav-item nav-link" to="#">
           GEARSHOP
-        </Link>
-        <Link className="nav-item nav-link" to="#">
-          GIFT CARDS
         </Link>
       </nav>
     </div>
