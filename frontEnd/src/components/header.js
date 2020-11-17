@@ -25,14 +25,16 @@ const Header = () => {
     // </nav>
 
     <nav className="navbar navbar-dark bg-dark">
-      <div className="text-light ml-5">
-        <Link className="navbar-brand" to="/">
-          GameBox Center
-        </Link>
-      </div>
-      <div className="d-flex align-items-baseline text-light mt-3 mr-5">
-        <p className="mr-1">0 items</p>
-        <i className="fa fa-shopping-cart" aria-hidden="true"></i>
+      <div className="container">
+        <div className="text-light">
+          <Link className="navbar-brand" to="/">
+            GameBox Center
+          </Link>
+        </div>
+        <div className="d-flex align-items-baseline text-light pt-3 cart">
+          <p className="mr-1">0 items</p>
+          <i className="fa fa-shopping-cart"></i>
+        </div>
       </div>
     </nav>
   );
