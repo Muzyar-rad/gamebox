@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../assets/GameBox Logo.png";
 import { Link } from "react-router-dom";
 import "../css/header.css";
 
@@ -28,6 +29,7 @@ const Header = () => {
       <div className="container">
         <div className="text-light">
           <Link className="navbar-brand" to="/">
+            <img src={logo} width="25" height="20" className="mr-1" />
             GameBox Center
           </Link>
         </div>
