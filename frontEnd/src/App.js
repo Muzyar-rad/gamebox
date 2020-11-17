@@ -1,9 +1,10 @@
 import React from "react";
-import NavBar from "./components/navBar";
+import Header from "./components/header";
+
 function App() {
   return (
     <div className="main mh-100">
-      <NavBar />
+      <Header />
     </div>
   );
 }
