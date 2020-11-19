@@ -29,7 +29,13 @@ const Header = () => {
       <div className="container">
         <div className="text-light">
           <Link className="navbar-brand" to="/">
-            <img src={logo} width="25" height="20" className="mr-1" />
+            <img
+              src={logo}
+              width="25"
+              height="20"
+              className="mr-1"
+              alt="Gamebox logo"
+            />
             GameBox Center
           </Link>
         </div>
