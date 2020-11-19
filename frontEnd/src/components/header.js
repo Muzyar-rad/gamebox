@@ -33,7 +33,7 @@ const Header = () => {
               src={logo}
               width="25"
               height="20"
-              className="mr-1"
+              className="mr-1 mb-1"
               alt="Gamebox logo"
             />
             GameBox Center
