@@ -1,7 +1,4 @@
 import React from "react";
-import { img1 } from "../assets/img/gaming_laptop_1.webp";
-import { img2 } from "../assets/img/gaming_laptop_2.jpg";
-import { img3 } from "../assets/img/gaming_laptop_3.webp";
 
 const Carousal = () => {
   return (
@@ -21,13 +18,28 @@ const Carousal = () => {
       </ol>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img className="d-block w-100" src={img1} alt="First slide" />
+          <img
+            className="d-block w-100"
+            height="500"
+            src={require("../assets/img/gaming_laptop_1.png")}
+            alt="First slide"
+          />
         </div>
         <div className="carousel-item">
-          <img className="d-block w-100" src={img2} alt="Second slide" />
+          <img
+            className="d-block w-100"
+            height="500"
+            src={require("../assets/img/gaming_laptop_2.jpg")}
+            alt="Second slide"
+          />
         </div>
         <div className="carousel-item">
-          <img className="d-block w-100" src={img3} alt="Third slide" />
+          <img
+            className="d-block w-100"
+            height="500"
+            src={require("../assets/img/gaming_laptop_3.webp")}
+            alt="Third slide"
+          />
         </div>
       </div>
       <a
