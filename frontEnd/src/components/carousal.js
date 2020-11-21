@@ -25,8 +25,11 @@ const Carousal = () => {
             alt="First slide"
           />
           <div class="carousel-caption d-none d-md-block">
-            <h5>...</h5>
-            <p>...</p>
+            <h5>Keep Players Inside the Game</h5>
+            <p>
+              Allow players to purchase anything they want within the game,
+              without disrupting play.
+            </p>
           </div>
         </div>
         <div className="carousel-item">
@@ -37,8 +40,11 @@ const Carousal = () => {
             alt="Second slide"
           />
           <div class="carousel-caption d-none d-md-block">
-            <h5>...</h5>
-            <p>...</p>
+            <h5>Provide Personalized Offerings</h5>
+            <p>
+              Cross sell, up sell, and promote impulse buys, targeted offers,
+              and exclusive, real-world, game-related merchandise.
+            </p>
           </div>
         </div>
         <div className="carousel-item">
@@ -49,8 +55,12 @@ const Carousal = () => {
             alt="Third slide"
           />
           <div class="carousel-caption d-none d-md-block">
-            <h5>...</h5>
-            <p>...</p>
+            <h5>Unify the Players’ Experience</h5>
+            <p>
+              Whether players purchase in-game on a traditional PC, mobile
+              device or in-store, all transactions are seamlessly visible across
+              all channels.
+            </p>
           </div>
         </div>
       </div>
