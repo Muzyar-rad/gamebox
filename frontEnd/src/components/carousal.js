@@ -24,6 +24,10 @@ const Carousal = () => {
             src={require("../assets/img/gaming_laptop_1.png")}
             alt="First slide"
           />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>...</h5>
+            <p>...</p>
+          </div>
         </div>
         <div className="carousel-item">
           <img
@@ -32,6 +36,10 @@ const Carousal = () => {
             src={require("../assets/img/gaming_laptop_2.jpg")}
             alt="Second slide"
           />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>...</h5>
+            <p>...</p>
+          </div>
         </div>
         <div className="carousel-item">
           <img
@@ -40,6 +48,10 @@ const Carousal = () => {
             src={require("../assets/img/gaming_laptop_3.webp")}
             alt="Third slide"
           />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>...</h5>
+            <p>...</p>
+          </div>
         </div>
       </div>
       <a
