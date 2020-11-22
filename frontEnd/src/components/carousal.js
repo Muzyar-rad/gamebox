@@ -24,7 +24,7 @@ const Carousal = () => {
             src={require("../assets/img/gaming_laptop_1.png")}
             alt="First slide"
           />
-          <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption d-block">
             <h5>Keep Players Inside the Game</h5>
             <p>
               Allow players to purchase anything they want within the game,
@@ -39,7 +39,7 @@ const Carousal = () => {
             src={require("../assets/img/gaming_laptop_2.jpg")}
             alt="Second slide"
           />
-          <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption d-block">
             <h5>Provide Personalized Offerings</h5>
             <p>
               Cross sell, up sell, and promote impulse buys, targeted offers,
@@ -54,7 +54,7 @@ const Carousal = () => {
             src={require("../assets/img/gaming_laptop_3.webp")}
             alt="Third slide"
           />
-          <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption d-block">
             <h5>Unify the Players’ Experience</h5>
             <p>
               Whether players purchase in-game on a traditional PC, mobile
