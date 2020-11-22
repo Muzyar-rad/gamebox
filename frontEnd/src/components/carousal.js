@@ -1,5 +1,4 @@
 import React from "react";
-import "../css/carousal.css";
 
 const Carousal = () => {
   return (
@@ -26,7 +25,7 @@ const Carousal = () => {
             alt="First slide"
           />
           <div class="carousel-caption d-block">
-            <h5>Keep Players Inside the Game</h5>
+            <h3>Keep Players Inside the Game</h3>
             <p>
               Allow players to purchase anything they want within the game,
               without disrupting play.
@@ -41,7 +40,7 @@ const Carousal = () => {
             alt="Second slide"
           />
           <div class="carousel-caption d-block">
-            <h5>Provide Personalized Offerings</h5>
+            <h3>Provide Personalized Offerings</h3>
             <p>
               Cross sell, up sell, and promote impulse buys, targeted offers,
               and exclusive, real-world, game-related merchandise.
@@ -56,7 +55,7 @@ const Carousal = () => {
             alt="Third slide"
           />
           <div class="carousel-caption d-block">
-            <h5>Unify the Players’ Experience</h5>
+            <h3>Unify the Players’ Experience</h3>
             <p>
               Whether players purchase in-game on a traditional PC, mobile
               device or in-store, all transactions are seamlessly visible across
