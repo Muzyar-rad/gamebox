@@ -1,4 +1,5 @@
 import React from "react";
+import "../css/carousal.css";
 
 const Carousal = () => {
   return (
