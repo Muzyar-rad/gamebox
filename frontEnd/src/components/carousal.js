@@ -56,7 +56,11 @@ const Carousal = () => {
           />
           <div class="carousel-caption d-block">
             <h3>Unify the Players’ Experience</h3>
-            <p></p>
+            <p>
+              Whether players purchase in-game on a traditional PC, mobile
+              device or in-store, all transactions are seamlessly visible across
+              all channels.
+            </p>
           </div>
         </div>
       </div>
