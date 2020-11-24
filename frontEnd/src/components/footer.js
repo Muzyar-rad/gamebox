@@ -4,7 +4,7 @@ import logo from "../assets/GameBox Logo.png";
 const Footer = () => {
   return (
     <nav className="navbar navbar-dark bg-dark">
-      <div className="d-flex flex-column justify-content-center">
+      <div className="container d-flex flex-column">
         <div className="navbar-brand h1">
           {" "}
           <img
