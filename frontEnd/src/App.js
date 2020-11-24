@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./components/footer";
 import Carousal from "./components/carousal";
 import Header from "./components/header";
 
@@ -7,6 +8,7 @@ function App() {
     <div>
       <Header />
       <Carousal />
+      <Footer />
     </div>
   );
 }
