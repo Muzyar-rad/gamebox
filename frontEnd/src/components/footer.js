@@ -1,10 +1,11 @@
 import React from "react";
 import logo from "../assets/GameBox Logo.png";
+import "../css/footer.css";
 
 const Footer = () => {
   return (
-    <nav className="container-fluid navbar navbar-dark bg-dark flex-column">
-      <div className="navbar-brand">
+    <nav className="container-fluid navbar navbar-dark bg-dark text-white flex-column p-4">
+      <div className="title">
         {" "}
         <img
           src={logo}
@@ -15,7 +16,7 @@ const Footer = () => {
         />
         Gamebox Center
       </div>
-      <div className="navbar-brand">A Rad Industries Brand</div>
+      <div className="brand">A Rad Industries Brand</div>
     </nav>
   );
 };
