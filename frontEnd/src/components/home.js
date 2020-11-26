@@ -1,5 +1,6 @@
 import React from "react";
 import NavFilter from "./navFilter";
+import Cards from "./cards";
 
 const Carousal = () => {
   return (
@@ -92,6 +93,7 @@ const Carousal = () => {
         </a>
       </div>
       <NavFilter />
+      <Cards />
     </React.Fragment>
   );
 };

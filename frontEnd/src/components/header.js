@@ -13,18 +13,6 @@ const Header = () => {
     //   </div>
     // </div>
 
-    // <nav className="nav nav-pills nav-justified">
-    //   <Link className="nav-item nav-link" to="#">
-    //     DESKTOPS
-    //   </Link>
-    //   <Link className="nav-item nav-link" to="#">
-    //     LAPTOPS
-    //   </Link>
-    //   <Link className="nav-item nav-link" to="#">
-    //     GEARSHOP
-    //   </Link>
-    // </nav>
-
     <nav className="navbar navbar-dark bg-dark">
       <div className="container">
         <div className="text-light">
