@@ -4,7 +4,7 @@ import "../css/cards.css";
 const Cards = () => {
   return (
     <div className="card-deck p-5">
-      <div className="col-md-6 col-lg-4">
+      <div className="col-md-6 col-lg-4 pb-5">
         <div className="card">
           <img
             className="card-img-top card-img-fit p-2"
@@ -14,9 +14,9 @@ const Cards = () => {
           <div className="card-body">
             <h5 className="card-title">Alienware Aurora R10 Gaming Desktop</h5>
             <p className="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This card has even longer content
+              than the first to show that equal height action.
             </p>
             <p className="card-text">
               <small className="text-muted">$1,230.00</small>
@@ -24,7 +24,7 @@ const Cards = () => {
           </div>
         </div>
       </div>
-      <div className="col-md-6 col-lg-4 ">
+      <div className="col-md-6 col-lg-4 pb-5">
         <div className="card">
           <img
             className="card-img-top card-img-fit p-2"
@@ -34,8 +34,9 @@ const Cards = () => {
           <div className="card-body">
             <h5 className="card-title">Alienware Aurora R11 Gaming Desktop</h5>
             <p className="card-text">
-              This card has supporting text below as a natural lead-in to
-              additional content.
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This card has even longer content
+              than the first to show that equal height action.
             </p>
             <p className="card-text">
               <small className="text-muted">$1,440.00</small>
@@ -43,7 +44,7 @@ const Cards = () => {
           </div>
         </div>
       </div>
-      <div className=" col-md-6 col-lg-4 ">
+      <div className="col-md-6 col-lg-4 pb-5">
         <div className="card">
           <img
             className="card-img-top card-img-fit p-2"
@@ -58,12 +59,12 @@ const Cards = () => {
               than the first to show that equal height action.
             </p>
             <p className="card-text">
-              <small className="text-muted">Last updated 3 mins ago</small>
+              <small className="text-muted">$1,440.00</small>
             </p>
           </div>
         </div>
       </div>
-      <div className=" col-md-6 col-lg-4">
+      <div className="col-md-6 col-lg-4 pb-5">
         <div className="card">
           <img
             className="card-img-top card-img-fit p-2"
@@ -78,12 +79,12 @@ const Cards = () => {
               than the first to show that equal height action.
             </p>
             <p className="card-text">
-              <small className="text-muted">Last updated 3 mins ago</small>
+              <small className="text-muted">$1,440.00</small>
             </p>
           </div>
         </div>
       </div>
-      <div className=" col-md-6 col-lg-4 ">
+      <div className="col-md-6 col-lg-4 pb-5">
         <div className="card">
           <img
             className="card-img-top card-img-fit p-2"
@@ -98,12 +99,12 @@ const Cards = () => {
               than the first to show that equal height action.
             </p>
             <p className="card-text">
-              <small className="text-muted">Last updated 3 mins ago</small>
+              <small className="text-muted">$1,440.00</small>
             </p>
           </div>
         </div>
       </div>
-      <div className=" col-md-6 col-lg-4 ">
+      <div className=" col-md-6 col-lg-4 pb-5 ">
         <div className="card">
           <img
             className="card-img-top card-img-fit p-2"
@@ -111,21 +112,19 @@ const Cards = () => {
             alt="product_pic_3"
           />
           <div className="card-body">
-            <h5 className="card-title">
-              CORSAIR Vengeance i7200 Gaming Desktop
-            </h5>
+            <h5 className="card-title">CORSAIR i7200 Gaming Desktop</h5>
             <p className="card-text">
               This is a wider card with supporting text below as a natural
               lead-in to additional content. This card has even longer content
               than the first to show that equal height action.
             </p>
             <p className="card-text">
-              <small className="text-muted">Last updated 3 mins ago</small>
+              <small className="text-muted">$1,440.00</small>
             </p>
           </div>
         </div>
       </div>
-      <div className=" col-md-6 col-lg-4 ">
+      <div className="col-md-6 col-lg-4 pb-5">
         <div className="card">
           <img
             className="card-img-top card-img-fit p-2"
@@ -140,7 +139,7 @@ const Cards = () => {
               than the first to show that equal height action.
             </p>
             <p className="card-text">
-              <small className="text-muted">Last updated 3 mins ago</small>
+              <small className="text-muted">$1,440.00</small>
             </p>
           </div>
         </div>
