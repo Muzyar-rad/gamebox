@@ -34,7 +34,7 @@ const Cards = () => {
             additional content.
           </p>
           <p className="card-text">
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <small className="text-muted">$1,440.00</small>
           </p>
         </div>
       </div>
