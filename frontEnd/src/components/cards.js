@@ -17,7 +17,7 @@ const Cards = () => {
             lead-in to additional content. This content is a little bit longer.
           </p>
           <p className="card-text">
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <small className="text-muted">$1,230.00</small>
           </p>
         </div>
       </div>
