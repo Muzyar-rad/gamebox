@@ -3,6 +3,19 @@
   object-fit: contain;
 }
 
-.pointer {
+@keyframes high-shadow {
+  from {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  }
+  to {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  }
+}
+
+.stand-out {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+.stand-out:hover {
   cursor: pointer;
+  animation: high-shadow 1s 0s forwards;
 }
