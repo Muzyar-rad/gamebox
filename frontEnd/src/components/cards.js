@@ -5,7 +5,7 @@ const Cards = () => {
   return (
     <div className="card-deck p-5">
       <div className="col-md-6 col-lg-4 pb-5">
-        <div className="card">
+        <div className="card pointer shadow-sm">
           <img
             className="card-img-top card-img-fit p-2"
             src={require("../assets/img/Alienware R10 Desktop.webp")}
@@ -25,7 +25,7 @@ const Cards = () => {
         </div>
       </div>
       <div className="col-md-6 col-lg-4 pb-5">
-        <div className="card">
+        <div className="card pointer shadow-sm">
           <img
             className="card-img-top card-img-fit p-2"
             src={require("../assets/img/Alienware R11 Desktop.webp")}
@@ -45,7 +45,7 @@ const Cards = () => {
         </div>
       </div>
       <div className="col-md-6 col-lg-4 pb-5">
-        <div className="card">
+        <div className="card pointer shadow-sm">
           <img
             className="card-img-top card-img-fit p-2"
             src={require("../assets/img/Alienware Area 51m Laptop.jpg")}
@@ -65,7 +65,7 @@ const Cards = () => {
         </div>
       </div>
       <div className="col-md-6 col-lg-4 pb-5">
-        <div className="card">
+        <div className="card pointer shadow-sm">
           <img
             className="card-img-top card-img-fit p-2"
             src={require("../assets/img/Alienware M17 Laptop.webp")}
@@ -85,7 +85,7 @@ const Cards = () => {
         </div>
       </div>
       <div className="col-md-6 col-lg-4 pb-5">
-        <div className="card">
+        <div className="card pointer shadow-sm">
           <img
             className="card-img-top card-img-fit p-2"
             src={require("../assets/img/Dell G5 Gaming Desktop.webp")}
@@ -105,7 +105,7 @@ const Cards = () => {
         </div>
       </div>
       <div className=" col-md-6 col-lg-4 pb-5 ">
-        <div className="card">
+        <div className="card pointer shadow-sm">
           <img
             className="card-img-top card-img-fit p-2"
             src={require("../assets/img/corsair vengeance 7200i.png_515Wx515H")}
@@ -125,7 +125,7 @@ const Cards = () => {
         </div>
       </div>
       <div className="col-md-6 col-lg-4 pb-5">
-        <div className="card">
+        <div className="card pointer shadow-sm">
           <img
             className="card-img-top card-img-fit p-2"
             src={require("../assets/img/Razer Blade 15 Gaming Laptop.webp")}

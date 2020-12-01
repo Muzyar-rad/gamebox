@@ -11,7 +11,7 @@ const CardItemPage = () => {
           Back to Catalog
         </NavLink>
         <div className="card-body">
-          <div className="row">
+          <div className="row mb-4">
             <div className="col">
               <img
                 className="card-img-fit mx-auto d-block"
@@ -20,7 +20,7 @@ const CardItemPage = () => {
               />
             </div>
             <div className="col">
-              <h5 className="card-title">
+              <h5 className="card-title-item">
                 Alienware Aurora R11 Gaming Desktop
               </h5>
               <p className="card-price text-muted">$3,659.99</p>

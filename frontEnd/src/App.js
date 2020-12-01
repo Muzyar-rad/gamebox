@@ -9,8 +9,8 @@ function App() {
   return (
     <div>
       <Header />
-      <CardItemPage />
-      {/* <Home /> */}
+      {/* <CardItemPage /> */}
+      <Home />
       <Footer />
     </div>
   );
