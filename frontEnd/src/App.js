@@ -1,16 +1,19 @@
 import React from "react";
-import Footer from "./components/footer";
-import Home from "./components/home";
 import Header from "./components/header";
-import "./css/App.css";
+import Home from "./components/home";
 import CardItemPage from "./components/cardItemPage";
+import ShoppingCart from "./components/shoppingCart";
+import Footer from "./components/footer";
+import "./css/App.css";
 
 function App() {
   return (
     <div>
       <Header />
+      {/* <Home /> */}
       {/* <CardItemPage /> */}
-      <Home />
+      <ShoppingCart />
+
       <Footer />
     </div>
   );
