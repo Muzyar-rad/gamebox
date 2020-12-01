@@ -14,12 +14,12 @@ const Cards = () => {
           <div className="card-body">
             <h5 className="card-title">Alienware Aurora R10 Gaming Desktop</h5>
             <p className="card-text">
+              <small className="text-muted">$1,230.00</small>
+            </p>
+            <p className="card-text">
               This is a wider card with supporting text below as a natural
               lead-in to additional content. This card has even longer content
               than the first to show that equal height action.
-            </p>
-            <p className="card-text">
-              <small className="text-muted">$1,230.00</small>
             </p>
           </div>
         </div>
@@ -34,12 +34,12 @@ const Cards = () => {
           <div className="card-body">
             <h5 className="card-title">Alienware Aurora R11 Gaming Desktop</h5>
             <p className="card-text">
+              <small className="text-muted">$1,440.00</small>
+            </p>
+            <p className="card-text">
               This is a wider card with supporting text below as a natural
               lead-in to additional content. This card has even longer content
               than the first to show that equal height action.
-            </p>
-            <p className="card-text">
-              <small className="text-muted">$1,440.00</small>
             </p>
           </div>
         </div>
@@ -54,12 +54,12 @@ const Cards = () => {
           <div className="card-body">
             <h5 className="card-title">Alienware Area 51 Gaming Laptop</h5>
             <p className="card-text">
+              <small className="text-muted">$1,440.00</small>
+            </p>
+            <p className="card-text">
               This is a wider card with supporting text below as a natural
               lead-in to additional content. This card has even longer content
               than the first to show that equal height action.
-            </p>
-            <p className="card-text">
-              <small className="text-muted">$1,440.00</small>
             </p>
           </div>
         </div>
@@ -74,12 +74,12 @@ const Cards = () => {
           <div className="card-body">
             <h5 className="card-title">Alienware M17 Gaming Laptop</h5>
             <p className="card-text">
+              <small className="text-muted">$1,440.00</small>
+            </p>
+            <p className="card-text">
               This is a wider card with supporting text below as a natural
               lead-in to additional content. This card has even longer content
               than the first to show that equal height action.
-            </p>
-            <p className="card-text">
-              <small className="text-muted">$1,440.00</small>
             </p>
           </div>
         </div>
@@ -94,12 +94,12 @@ const Cards = () => {
           <div className="card-body">
             <h5 className="card-title">Dell G5 Gaming Desktop</h5>
             <p className="card-text">
+              <small className="text-muted">$1,440.00</small>
+            </p>
+            <p className="card-text">
               This is a wider card with supporting text below as a natural
               lead-in to additional content. This card has even longer content
               than the first to show that equal height action.
-            </p>
-            <p className="card-text">
-              <small className="text-muted">$1,440.00</small>
             </p>
           </div>
         </div>
@@ -114,12 +114,12 @@ const Cards = () => {
           <div className="card-body">
             <h5 className="card-title">CORSAIR i7200 Gaming Desktop</h5>
             <p className="card-text">
+              <small className="text-muted">$1,440.00</small>
+            </p>
+            <p className="card-text">
               This is a wider card with supporting text below as a natural
               lead-in to additional content. This card has even longer content
               than the first to show that equal height action.
-            </p>
-            <p className="card-text">
-              <small className="text-muted">$1,440.00</small>
             </p>
           </div>
         </div>
@@ -134,12 +134,12 @@ const Cards = () => {
           <div className="card-body">
             <h5 className="card-title">Razer Blade 15 Gaming Desktop</h5>
             <p className="card-text">
+              <small className="text-muted">$1,440.00</small>
+            </p>
+            <p className="card-text">
               This is a wider card with supporting text below as a natural
               lead-in to additional content. This card has even longer content
               than the first to show that equal height action.
-            </p>
-            <p className="card-text">
-              <small className="text-muted">$1,440.00</small>
             </p>
           </div>
         </div>
