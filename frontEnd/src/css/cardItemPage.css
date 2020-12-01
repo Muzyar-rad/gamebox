@@ -1,0 +1,19 @@
+.text-style {
+  color: #c51162;
+}
+
+.text-style:hover {
+  text-decoration: none;
+}
+
+.card-title {
+  font-size: 25px;
+}
+
+.card-price {
+  font-size: 20px;
+}
+
+.btn-color {
+  background-color: #c51162;
+}
