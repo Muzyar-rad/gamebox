@@ -34,12 +34,12 @@ const Cards = () => {
           <div className="card-body">
             <h5 className="card-title">Alienware Aurora R11 Gaming Desktop</h5>
             <p className="card-text">
-              <small className="text-muted">$1,440.00</small>
+              <small className="text-muted">$3,659.99</small>
             </p>
             <p className="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
+              The Alienware Aurora R11 is engineered with 10th Gen Intel® Core™
+              processors, optional liquid-cooled graphics and multiple upgrade
+              options to achieve peak performance that lasts.
             </p>
           </div>
         </div>
