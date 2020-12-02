@@ -1,3 +1,24 @@
-.fontSize {
+.text-checkout {
+  color: #4527a0;
+}
+
+p.fontSize {
   font-size: 35px;
+}
+
+.badge-color {
+  color: white;
+  border: none;
+  background-color: #4527a0;
+  cursor: pointer;
+}
+
+button.btn-checkout {
+  color: white;
+  background-color: #4527a0;
+  border-color: #4527a0;
+}
+
+.badge-color:focus {
+  outline: 0;
 }
