@@ -13,10 +13,11 @@ const ShoppingCart = () => {
       </NavLink>
       <p className="fontSize ml-3">My Cart</p>
       <div className="row">
-        <div className="col-8">
+        <div className="col-md-8">
+          <ShoppingCartProductItem />
           <ShoppingCartProductItem />
         </div>
-        <div className="col-4">
+        <div className="col-md-4">
           <ShoppingCartTotalPrice />
         </div>
       </div>
