@@ -12,6 +12,10 @@ const CheckOut = () => {
       <div className="d-flex flex-column mt-3">
         <p className="fontSize">Check Out</p>
         <p className="orderTotalSize text-muted">Order Total: $100,00.99</p>
+        <p className="text-danger">
+          * Please DO NOT use real payment information! This app is created
+          strictly for demonstration purposes.
+        </p>
       </div>
       <div className="card card-shadow mb-4">
         <div className="card-body">
@@ -107,7 +111,9 @@ const CheckOut = () => {
                   id="gridCheck"
                 />
                 <label class="form-check-label" for="gridCheck">
-                  Check me out
+                  I acknowledge that this is for demonstration purposes only and
+                  no real names, addresses, or credit card information has been
+                  used for the purposes of this app
                 </label>
               </div>
             </div>
