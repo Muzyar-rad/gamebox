@@ -10,9 +10,9 @@ function App() {
   return (
     <div>
       <Header />
-      {/* <Home /> */}
+      <Home />
       {/* <CardItemPage /> */}
-      <ShoppingCart />
+      {/* <ShoppingCart /> */}
 
       <Footer />
     </div>
