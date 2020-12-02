@@ -14,11 +14,11 @@ function App() {
       <Header />
       <Switch>
         <Route path="/home" component={Home} />
-        <Route path="/cardItem" component={CardItemPage} />
-        <Route path="/shoppingCart" component={ShoppingCart} />
+        <Route path="/carditem" component={CardItemPage} />
+        <Route path="/shoppingcart" component={ShoppingCart} />
+        <Route path="/checkout" component={CheckOut} />
         <Redirect from="/" exact to="/home" />
       </Switch>
-      {/* <CheckOut /> */}
       <Footer />
     </div>
   );
