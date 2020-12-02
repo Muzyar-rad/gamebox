@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import "../css/checkOut.css";
 
 const CheckOut = () => {
+  const redStar = <span className="text-danger">*</span>;
   return (
     <div className="container mt-3">
       <NavLink className="text-checkout p-2" to="/">
@@ -23,7 +24,7 @@ const CheckOut = () => {
           <form>
             <div class="form-row">
               <div class="form-group col-md-6">
-                <label for="firstName">First Name</label>
+                <label for="firstName">First Name{redStar}</label>
                 <input
                   type="text"
                   class="form-control"
@@ -32,7 +33,7 @@ const CheckOut = () => {
                 />
               </div>
               <div class="form-group col-md-6">
-                <label for="lastName">Last Name</label>
+                <label for="lastName">Last Name{redStar}</label>
                 <input
                   type="text"
                   class="form-control"
@@ -42,7 +43,7 @@ const CheckOut = () => {
               </div>
             </div>
             <div class="form-group">
-              <label for="inputAddress">Address</label>
+              <label for="inputAddress">Address{redStar}</label>
               <input
                 type="text"
                 class="form-control"
@@ -61,24 +62,24 @@ const CheckOut = () => {
             </div>
             <div class="form-row">
               <div class="form-group col-md-6">
-                <label for="inputCity">City</label>
+                <label for="inputCity">City{redStar}</label>
                 <input type="text" class="form-control" id="inputCity" />
               </div>
               <div class="form-group col-md-4">
-                <label for="inputState">State</label>
+                <label for="inputState">State{redStar}</label>
                 <select id="inputState" class="form-control">
                   <option selected>Choose...</option>
                   <option>...</option>
                 </select>
               </div>
               <div class="form-group col-md-2">
-                <label for="inputZip">Zip</label>
+                <label for="inputZip">Zip{redStar}</label>
                 <input type="text" class="form-control" id="inputZip" />
               </div>
             </div>
             <h5 className="card-title mt-5">Payment Information</h5>
             <div class="form-group">
-              <label for="creditCard">Credit Card</label>
+              <label for="creditCard">Credit Card{redStar}</label>
               <input
                 type="text"
                 class="form-control"
@@ -88,18 +89,18 @@ const CheckOut = () => {
             </div>
             <div class="form-row">
               <div class="form-group col-md-4">
-                <label for="month">Month</label>
+                <label for="month">Month{redStar}</label>
                 <input type="text" class="form-control" id="month" />
               </div>
               <div class="form-group col-md-4">
-                <label for="year">Year</label>
+                <label for="year">Year{redStar}</label>
                 <select id="year" class="form-control">
                   <option selected>Choose...</option>
                   <option>...</option>
                 </select>
               </div>
               <div class="form-group col-md-4">
-                <label for="cvv">CVV</label>
+                <label for="cvv">CVV{redStar}</label>
                 <input type="text" class="form-control" id="cvv" />
               </div>
             </div>
