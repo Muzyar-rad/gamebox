@@ -8,7 +8,6 @@ import ShoppingCart from "./components/shoppingCart";
 import CheckOut from "./components/checkOut";
 import Footer from "./components/footer";
 import "./css/App.css";
-
 function App() {
   const [modalShow, setModalShow] = React.useState(true);
   return (
