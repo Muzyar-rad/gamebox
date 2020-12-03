@@ -19,10 +19,12 @@ const Header = () => {
             GameBox Center
           </Link>
         </div>
-        <div className="d-flex align-items-baseline text-light pt-3 cart">
-          <p className="mr-1">0 items</p>
-          <i className="fa fa-shopping-cart"></i>
-        </div>
+        <Link className="navbar-brand" to="/shoppingcart">
+          <div className="d-flex align-items-baseline text-light pt-3 cart">
+            <p className="mr-1">0 items</p>
+            <i className="fa fa-shopping-cart"></i>
+          </div>
+        </Link>
       </div>
     </nav>
   );
