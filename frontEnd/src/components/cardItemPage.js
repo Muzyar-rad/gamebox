@@ -1,15 +1,15 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../css/cardItemPage.css";
 
 const CardItemPage = () => {
   return (
     <div className="container p-5">
       <div className="card card-shadow">
-        <NavLink className="text-style p-2" to="/">
+        <Link className="text-style p-2" to="/">
           <i className="fa fa-chevron-circle-left m-1"></i>
           Back to Catalog
-        </NavLink>
+        </Link>
         <div className="card-body">
           <div className="row mb-4">
             <div className="col">

@@ -2,7 +2,7 @@ import React from "react";
 
 const ShoppingCartProductItem = () => {
   return (
-    <div className="card card-shadow mb-4">
+    <div className="card mb-4 stand-out">
       <div className="card-body">
         <div className="row mb-4">
           <div className="col">

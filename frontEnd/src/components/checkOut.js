@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../css/checkOut.css";
 
 const CheckOut = () => {
@@ -86,10 +86,10 @@ const CheckOut = () => {
   const redStar = <span className="text-danger">*</span>;
   return (
     <div className="container mt-3">
-      <NavLink className="text-checkout p-2" to="/">
+      <Link className="text-checkout p-2" to="/">
         <i className="fa fa-chevron-circle-left m-1"></i>
         Back to Shopping
-      </NavLink>
+      </Link>
       <div className="d-flex flex-column mt-3">
         <p className="fontSize">Check Out</p>
         <p className="orderTotalSize text-muted">Order Total: $100,00.99</p>

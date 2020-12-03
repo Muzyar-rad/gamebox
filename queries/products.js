@@ -4,12 +4,19 @@ const router = express.Router();
 
 router.get("/populateProducts", (req, res) => {
   const sql =
-    "INSERT INTO products (name, description, imagePath, price) VALUES ?";
+    "INSERT INTO products (name, description, imagePath, price, windows, cpu, graphics, ram, hdd) VALUES ?";
   const values = [
-    ["Corsair1", "This is an awesome desktop", "/local/c", "$3,999.00"],
-    ["Corsair3", "This is an awesome desktop 2", "/local/a", "$2,999.00"],
-    ["Aurora10", "This is an awesome desktop 3", "/local/2", "$5,999.00"],
-    ["Aurora11", "This is an awesome desktop 4", "/local/d", "$6,999.00"],
+    [
+      "ALIENWARE AURORA R11 GAMING DESKTOP",
+      "The Alienware Aurora R11 is engineered with 10th Gen Intel® Core™ processors, optional liquid-cooled graphics and multiple upgrade options to achieve peak performance that lasts.",
+      "/frontEnd/src/assets/img/Alienware R11 Desktop.webp",
+      "$$3,659.99",
+      "Windows 10 Home",
+      "10th Gen Intel® Core™ i9 10900F",
+      "NVIDIA® GeForce RTX™ 3080 10GB GDDR6X",
+      "16GB Dual Channel HyperX™ FURY DDR4 XMP at 2933MHz; up to 64GB",
+      "512GB M.2 PCIe NVMe SSD (Boot) + 1TB 7200RPM SATA 6Gb/s (Storage)",
+    ],
   ];
   db.query(sql, [values], (err, res) => {
     if (err) throw err;
@@ -25,12 +32,12 @@ router.get("/", (req, res) => {
   });
 });
 
-router.get("/:id", (req, res) => {
-  const sql = "SELECT * FROM Products where productId = ?";
-  db.query(sql, [parseInt(req.params.id)], (err, res) => {
-    if (err) console.log(err);
-    console.log(res[0]);
-  });
-});
+// router.get("/:id", (req, res) => {
+//   const sql = "SELECT * FROM Products where productId = ?";
+//   db.query(sql, [parseInt(req.params.id)], (err, res) => {
+//     if (err) console.log(err);
+//     console.log(res[0]);
+//   });
+// });
 
 module.exports = router;
