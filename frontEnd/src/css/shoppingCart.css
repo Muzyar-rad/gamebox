@@ -2,6 +2,11 @@
   color: #4527a0;
 }
 
+.text-checkout:hover {
+  color: #4527a0;
+  text-decoration: none;
+}
+
 p.fontSize {
   font-size: 35px;
 }

@@ -16,7 +16,7 @@ const WelcomeModal = (props) => {
       </Modal.Title>
       <Modal.Body>
         <p>
-          Gamebox Center is a PERN stack content management app that was created
+          Gamebox Center is a MERN stack content management app that was created
           for demonstration purposes. By clicking the button below, you are
           acknowledging that the merchandise displayed is not available for
           purchase and therefore no real contact or credit card information
