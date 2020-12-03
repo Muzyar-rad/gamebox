@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+// import getProducts from "../services/productService";
 import "../css/cards.css";
 
 const Cards = () => {
+  const [products, setProducts] = useState([]);
   return (
     <div className="card-deck p-5">
       <div className="col-md-6 col-lg-4 pb-5">
