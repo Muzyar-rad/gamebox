@@ -5,12 +5,12 @@ import "../css/cards.css";
 const Cards = () => {
   const [products, setProducts] = useState([]);
 
-  const products = async()=> await getProducts();
-
   useEffect(() => {
-
-    const products = await getProducts();
-    console.log(products);
+    const getProductList = async () => {
+      const productList = await getProducts();
+      console.log(productList);
+    };
+    getProductList();
   }, []);
   return (
     <div className="card-deck p-5">
