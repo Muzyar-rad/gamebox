@@ -1,11 +1,17 @@
 import React, { useState, useEffect } from "react";
-// import getProducts from "../services/productService";
+import { getProducts } from "../services/productService";
 import "../css/cards.css";
 
 const Cards = () => {
   const [products, setProducts] = useState([]);
 
-  // useEffect()
+  const products = async()=> await getProducts();
+
+  useEffect(() => {
+
+    const products = await getProducts();
+    console.log(products);
+  }, []);
   return (
     <div className="card-deck p-5">
       <div className="col-md-6 col-lg-4 pb-5">
