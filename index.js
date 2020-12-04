@@ -4,8 +4,8 @@ const { dbConnection } = require("./startup/db");
 const app = express();
 
 dbConnection();
-require("./startup/routes")(app);
 require("./startup/cors")(app);
+require("./startup/routes")(app);
 
 const port = process.env.PORT || config.get("port");
 app.listen(port, () => console.log(`Listening on ${port}...`));
