@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import CardItem from "./cardItem";
 import { getProducts } from "../services/productService";
 import "../css/cards.css";
 
@@ -8,13 +9,22 @@ const Cards = () => {
   useEffect(() => {
     const getProductList = async () => {
       const productList = await getProducts();
-      console.log(productList);
+      setProducts(productList.data);
     };
     getProductList();
   }, []);
   return (
     <div className="card-deck p-5">
-      <div className="col-md-6 col-lg-4 pb-5">
+      {products.map((product) => (
+        <CardItem key={product.productId} product={product} />
+      ))}
+    </div>
+  );
+};
+
+export default Cards;
+
+/* <div className="col-md-6 col-lg-4 pb-5">
         <div className="card stand-out">
           <img
             className="card-img-top card-img-fit p-2"
@@ -236,9 +246,4 @@ const Cards = () => {
             </p>
           </div>
         </div>
-      </div>
-    </div>
-  );
-};
-
-export default Cards;
+      </div> */
