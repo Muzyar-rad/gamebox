@@ -139,26 +139,28 @@ router.get("/populateProducts", (req, res) => {
       null,
     ],
   ];
-  db.query(sql, [values], (err, res) => {
-    if (err) throw err;
-    console.log(res);
+  db.query(sql, [values], (error, response) => {
+    if (error) throw error;
+    res
+      .status(200)
+      .send("Database has been populated with the list of products");
   });
 });
 
 router.get("/", (req, res) => {
   const sql = "SELECT * FROM products";
-  db.query(sql, (err, res) => {
-    if (err) console.log(errs);
-    return res;
+  db.query(sql, (error, response) => {
+    if (error) console.log(error);
+    res.status(200).send(response);
   });
 });
 
-// router.get("/:id", (req, res) => {
-//   const sql = "SELECT * FROM Products where productId = ?";
-//   db.query(sql, [parseInt(req.params.id)], (err, res) => {
-//     if (err) console.log(err);
-//     console.log(res[0]);
-//   });
-// });
+router.get("/:id", (req, res) => {
+  const sql = "SELECT * FROM Products where productId = ?";
+  db.query(sql, [parseInt(req.params.id)], (error, response) => {
+    if (error) console.log(error);
+    res.status(200).send(response[0]);
+  });
+});
 
 module.exports = router;
