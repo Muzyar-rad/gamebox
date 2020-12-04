@@ -4,6 +4,8 @@ import "../css/cards.css";
 
 const Cards = () => {
   const [products, setProducts] = useState([]);
+
+  // useEffect()
   return (
     <div className="card-deck p-5">
       <div className="col-md-6 col-lg-4 pb-5">

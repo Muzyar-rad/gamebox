@@ -7,6 +7,17 @@ router.get("/populateProducts", (req, res) => {
     "INSERT INTO products (name, description, imagePath, price, windows, cpu, graphics, ram, hdd) VALUES ?";
   const values = [
     [
+      "ALIENWARE AURORA R10 GAMING DESKTOP",
+      "High-performance desktop with up to 16-core 3rd Gen AMD Ryzen™ overclockable processors designed for gamers who create.",
+      "/frontEnd/src/assets/img/Alienware R10 Desktop.webp",
+      "$2,146.19",
+      "Windows 10 Home 64-bit English",
+      "AMD Ryzen™ 7 3700X (8-Core, 32MB L3 Cache, Max Boost Clock of 4.4GHz)",
+      "NVIDIA® GeForce RTX™ 3080 10GB GDDR6X",
+      "16GB Dual Channel HyperX™ FURY DDR4 XMP at 2933MHz; up to 64GB (additional memory sold separately)",
+      "512GB M.2 PCIe NVMe SSD",
+    ],
+    [
       "ALIENWARE AURORA R11 GAMING DESKTOP",
       "The Alienware Aurora R11 is engineered with 10th Gen Intel® Core™ processors, optional liquid-cooled graphics and multiple upgrade options to achieve peak performance that lasts.",
       "/frontEnd/src/assets/img/Alienware R11 Desktop.webp",
@@ -88,24 +99,44 @@ router.get("/populateProducts", (req, res) => {
       "The CORSAIR T1 RACE 2018 chair features a wide seat, tall back, and two-layer custom color accents, giving you the style, comfort and endurance you need for long-haul gaming sessions.",
       "/frontEnd/src/assets/img/T1 Race 2018 Gaming Chair.webp",
       "$249.99",
+      null,
+      null,
+      null,
+      null,
+      null,
     ],
     [
       "Alienware 34 Curved Gaming Monitor",
       "34 inch gaming monitor with the full colors brought by IPS Nano Color (98% DCI-P3) technology and a 2ms response time. Featuring a 1900R WQHD resolution and 21:9 display ratio.",
       "/frontEnd/src/assets/img/Alienware 34 Curved Gaming Monitor.webp",
       "$1,139.99",
+      null,
+      null,
+      null,
+      null,
+      null,
     ],
     [
       "K95 RGB PLATINUM Mechanical Gaming Keyboard",
       "CORSAIR K95 RGB PLATINUM features CHERRY® MX Speed keyswitches backed by a lightweight aluminum frame. 8MB profile storage with hardware macro and lighting playback enable profile access independent of external software.",
       "/frontEnd/src/assets/img/K95 RGB PLATINUM Mechanical Gaming Keyboard.webp",
       "$199.99",
+      null,
+      null,
+      null,
+      null,
+      null,
     ],
     [
       "VOID PRO RGB Wireless Premium Gaming Headset",
       "The VOID PRO RGB Wireless headset provides exceptional comfort, epic audio performance and legendary CORSAIR durability to deliver the ultimate gaming experience.",
       "/frontEnd/src/assets/img/OID PRO RGB Wireless Premium Gaming Headset.webp",
       "$99.99",
+      null,
+      null,
+      null,
+      null,
+      null,
     ],
   ];
   db.query(sql, [values], (err, res) => {
@@ -118,7 +149,7 @@ router.get("/", (req, res) => {
   const sql = "SELECT * FROM products";
   db.query(sql, (err, res) => {
     if (err) console.log(errs);
-    console.log(res);
+    return res;
   });
 });
 
