@@ -15,7 +15,7 @@ const CardItemPage = () => {
             <div className="col">
               <img
                 className="card-img-fit mx-auto d-block"
-                src={"/frontEnd/public/images/Alienware R11 Desktop.webp"}
+                src={"/images/Alienware R11 Desktop.webp"}
                 alt="product_pic_2"
               />
             </div>
