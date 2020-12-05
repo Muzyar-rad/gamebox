@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/GameBox Logo.png";
+import logo from "../../public/GameBox Logo.png";
 import "../css/footer.css";
 
 const Footer = () => {
