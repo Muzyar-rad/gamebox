@@ -21,7 +21,7 @@ const Carousal = () => {
           <img
             className="d-block w-100"
             height="500"
-            src={"/frontEnd/public/images/gaming_laptop_1.png"}
+            src={"/images/gaming_laptop_1.png"}
             alt="First slide"
           />
           <div className="carousel-caption d-block">
@@ -36,7 +36,7 @@ const Carousal = () => {
           <img
             className="d-block w-100"
             height="500"
-            src={"/frontEnd/public/images/gaming_laptop_2.jpg"}
+            src={"/images/gaming_laptop_2.jpg"}
             alt="Second slide"
           />
           <div className="carousel-caption d-block">
@@ -51,7 +51,7 @@ const Carousal = () => {
           <img
             className="d-block w-100"
             height="500"
-            src={"/frontEnd/public/images/gaming_laptop_3.webp"}
+            src={"/images/gaming_laptop_3.webp"}
             alt="Third slide"
           />
           <div className="carousel-caption d-block">
