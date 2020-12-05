@@ -8,7 +8,7 @@ const ShoppingCartProductItem = () => {
           <div className="col">
             <img
               className="card-img-fit mx-auto d-block"
-              src={"/frontEnd/public/images/Alienware R10 Desktop.webp"}
+              src={"/images/Alienware R10 Desktop.webp"}
               alt="product_pic_2"
             />
           </div>

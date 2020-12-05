@@ -6,9 +6,7 @@ const CardItem = (props) => {
       <div className="card stand-out">
         <img
           className="card-img-top card-img-fit p-2"
-          src={
-            "/frontEnd/public/images/Alienware 34 Curved Gaming Monitor.webp"
-          }
+          src={props.product.imagePath}
           alt={`product_pic_${props.product.productId}`}
         />
         <div className="card-body">
