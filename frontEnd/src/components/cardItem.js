@@ -4,7 +4,7 @@ import "../css/cardItem.css";
 const CardItem = (props) => {
   return (
     <div className="col-md-6 col-lg-4 pb-5">
-      <div className="card stand-out">
+      <div className="card stand-out h-100">
         <img
           className="card-img-top card-img-fit p-2"
           src={props.product.imagePath}
@@ -15,7 +15,7 @@ const CardItem = (props) => {
           <p className="card-text">
             <small className="text-muted">{props.product.price}</small>
           </p>
-          <p className="card-desc">{props.product.description}</p>
+          <p className="card-text">{props.product.description}</p>
         </div>
       </div>
     </div>
