@@ -1,4 +1,5 @@
 import React from "react";
+import "../css/cardItem.css";
 
 const CardItem = (props) => {
   return (
@@ -14,7 +15,7 @@ const CardItem = (props) => {
           <p className="card-text">
             <small className="text-muted">{props.product.price}</small>
           </p>
-          <p className="card-text">{props.product.description}</p>
+          <p className="card-desc">{props.product.description}</p>
         </div>
       </div>
     </div>
