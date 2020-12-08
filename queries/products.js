@@ -73,7 +73,7 @@ router.get("/populateProducts", (req, res) => {
       "1TB HIGH-SPEED M.2 NVME SSD",
     ],
     [
-      "Razer Blade 15 Base Edition",
+      "Razer Blade 15 Base Edition Gaming Laptop",
       "More Power. More Frames. Making sure that you are reading this, Congrats if you did™",
       "/images/Razer Blade 15 Gaming Laptop.webp",
       "$1,499.99",
