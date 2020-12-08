@@ -14,11 +14,13 @@ const Cards = () => {
     getProductList();
   }, []);
   return (
-    <div className="card-deck p-5">
-      {products.map((product) => (
-        <CardItem key={product.productId} product={product} />
-      ))}
-    </div>
+    <React.Fragment>
+      <div className="card-deck p-5">
+        {products.map((product) => (
+          <CardItem key={product.productId} product={product} />
+        ))}
+      </div>
+    </React.Fragment>
   );
 };
 
