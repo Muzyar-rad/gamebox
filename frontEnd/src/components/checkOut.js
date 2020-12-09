@@ -102,106 +102,106 @@ const CheckOut = () => {
         <div className="card-body">
           <h5 className="card-title">Personal Information</h5>
           <form>
-            <div class="form-row">
-              <div class="form-group col-md-6">
+            <div className="form-row">
+              <div className="form-group col-md-6">
                 <label for="firstName">First Name{redStar}</label>
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   id="firstName"
                   placeholder="First Name"
                 />
               </div>
-              <div class="form-group col-md-6">
+              <div className="form-group col-md-6">
                 <label for="lastName">Last Name{redStar}</label>
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   id="lastName"
                   placeholder="Last Name"
                 />
               </div>
             </div>
-            <div class="form-group">
+            <div className="form-group">
               <label for="inputAddress">Address{redStar}</label>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="inputAddress"
                 placeholder="1234 Main St"
               />
             </div>
-            <div class="form-group">
+            <div className="form-group">
               <label for="inputAddress2">Address 2</label>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="inputAddress2"
                 placeholder="Apartment, studio, or floor"
               />
             </div>
-            <div class="form-row">
-              <div class="form-group col-md-6">
+            <div className="form-row">
+              <div className="form-group col-md-6">
                 <label for="inputCity">City{redStar}</label>
-                <input type="text" class="form-control" id="inputCity" />
+                <input type="text" className="form-control" id="inputCity" />
               </div>
-              <div class="form-group col-md-4">
+              <div className="form-group col-md-4">
                 <label for="inputState">State{redStar}</label>
-                <select id="inputState" class="form-control">
+                <select id="inputState" className="form-control">
                   <option selected>Choose...</option>
                   {statesOfUSA}
                 </select>
               </div>
-              <div class="form-group col-md-2">
+              <div className="form-group col-md-2">
                 <label for="inputZip">Zip{redStar}</label>
-                <input type="text" class="form-control" id="inputZip" />
+                <input type="text" className="form-control" id="inputZip" />
               </div>
             </div>
             <h5 className="card-title mt-5">Payment Information</h5>
-            <div class="form-group">
+            <div className="form-group">
               <label for="creditCard">Credit Card{redStar}</label>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="creditCard"
                 placeholder="1234 1234 1234 1234"
               />
             </div>
-            <div class="form-row">
-              <div class="form-group col-md-4">
+            <div className="form-row">
+              <div className="form-group col-md-4">
                 <label for="month">Month{redStar}</label>
-                <select id="month" class="form-control">
+                <select id="month" className="form-control">
                   <option selected>Choose...</option>
                   {months}
                 </select>
               </div>
-              <div class="form-group col-md-4">
+              <div className="form-group col-md-4">
                 <label for="year">Year{redStar}</label>
-                <select id="year" class="form-control">
+                <select id="year" className="form-control">
                   <option selected>Choose...</option>
                   {years}
                 </select>
               </div>
-              <div class="form-group col-md-4">
+              <div className="form-group col-md-4">
                 <label for="cvv">CVV{redStar}</label>
-                <input type="text" class="form-control" id="cvv" />
+                <input type="text" className="form-control" id="cvv" />
               </div>
             </div>
-            <div class="form-group">
-              <div class="form-check mt-4">
+            <div className="form-group">
+              <div className="form-check mt-4">
                 <input
-                  class="form-check-input"
+                  className="form-check-input"
                   type="checkbox"
                   id="gridCheck"
                 />
-                <label class="form-check-label" for="gridCheck">
+                <label className="form-check-label" for="gridCheck">
                   I acknowledge that this is for demonstration purposes only and
                   no real names, addresses, or credit card information has been
                   used for the purposes of this app
                 </label>
               </div>
             </div>
-            <button type="submit" class="btn btn-primary">
+            <button type="submit" className="btn btn-primary">
               Place Order
             </button>
           </form>
