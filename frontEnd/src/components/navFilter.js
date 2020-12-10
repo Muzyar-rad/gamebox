@@ -3,9 +3,6 @@ import "../css/navFilter.css";
 
 const NavFilter = (props) => {
   const [filter, setFilter] = React.useState("");
-  React.useEffect(() => {
-    setFilter("DESKTOP");
-  }, []);
   return (
     <div>
       <nav className="navbar navbar-dark bg-dark mt-3">
@@ -13,7 +10,7 @@ const NavFilter = (props) => {
           <div
             className="nav-item nav-link text-white"
             onClick={() => {
-              props.onFilterSelect(filter);
+              setFilter("DESKTOP");
             }}
           >
             <i className="fa fa-desktop mr-1"></i>
@@ -21,14 +18,18 @@ const NavFilter = (props) => {
           </div>
           <div
             className="nav-item nav-link text-white"
-            onClick={() => (props.filter = "LAPTOP")}
+            onClick={() => {
+              setFilter("LAPTOP");
+            }}
           >
             <i className="fa fa-laptop mr-1"></i>
             LAPTOPS
           </div>
           <div
             className="nav-item nav-link text-white"
-            onClick={() => (props.filter = "GEAR")}
+            onClick={() => {
+              setFilter("GEAR");
+            }}
           >
             <i className="fa fa-cogs mr-1"></i>
             GEARSHOP

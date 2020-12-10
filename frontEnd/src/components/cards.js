@@ -5,7 +5,6 @@ import "../css/cards.css";
 
 const Cards = () => {
   const [products, setProducts] = useState([]);
-
   useEffect(() => {
     const getProductList = async () => {
       const productList = await getProducts();
