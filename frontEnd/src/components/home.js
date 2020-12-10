@@ -4,13 +4,13 @@ import NavFilter from "./navFilter";
 import Cards from "./cards";
 
 const Home = () => {
-  let filter = "";
-  console.log(filter);
+  const [selectedFilter, setSelectedFilter] = React.useState("");
+  const setFilter = (filter) => setSelectedFilter(filter);
   return (
     <React.Fragment>
       <Carousal />
-      <NavFilter filter={filter} />
-      <Cards filter={filter} />
+      <NavFilter onFilterSelect={setFilter} />
+      <Cards filter={selectedFilter} />
     </React.Fragment>
   );
 };
