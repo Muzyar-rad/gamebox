@@ -2,7 +2,6 @@ import React from "react";
 import "../css/navFilter.css";
 
 const NavFilter = (props) => {
-  const [filter, setFilter] = React.useState("");
   return (
     <div>
       <nav className="navbar navbar-dark bg-dark mt-3">
@@ -10,7 +9,7 @@ const NavFilter = (props) => {
           <div
             className="nav-item nav-link text-white"
             onClick={() => {
-              setFilter("DESKTOP");
+              props.onFilterSelect("Desktop");
             }}
           >
             <i className="fa fa-desktop mr-1"></i>
@@ -19,7 +18,7 @@ const NavFilter = (props) => {
           <div
             className="nav-item nav-link text-white"
             onClick={() => {
-              setFilter("LAPTOP");
+              props.onFilterSelect("Laptop");
             }}
           >
             <i className="fa fa-laptop mr-1"></i>
@@ -28,7 +27,7 @@ const NavFilter = (props) => {
           <div
             className="nav-item nav-link text-white"
             onClick={() => {
-              setFilter("GEAR");
+              props.onFilterSelect("Gear");
             }}
           >
             <i className="fa fa-cogs mr-1"></i>
