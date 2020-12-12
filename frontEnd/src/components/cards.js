@@ -14,23 +14,22 @@ const Cards = (props) => {
   }, []);
 
   const getFilteredData = (products) => {
-    console.log(products);
     if (props.filter === "")
       return products.map((product) => (
         <CardItem key={product.productId} product={product} />
       ));
     else if (props.filter === "Desktop") {
-      products.forEach((product) => product.name.match(/(Desktop)/));
+      products = products.filter((product) => product.name.match(/(Desktop)/i));
       return products.map((product) => (
         <CardItem key={product.productId} product={product} />
       ));
     } else if (props.filter === "Laptop") {
-      products.forEach((product) => product.name.match(/(Laptop)/));
+      products = products.filter((product) => product.name.match(/(Laptop)/i));
       return products.map((product) => (
         <CardItem key={product.productId} product={product} />
       ));
     } else if (props.filter === "Gear") {
-      products.forEach((product) => product.name.match(/(Laptop)/));
+      products = products.filter((product) => product.name.match(/(Laptop)/i));
       return products.map((product) => (
         <CardItem key={product.productId} product={product} />
       ));
