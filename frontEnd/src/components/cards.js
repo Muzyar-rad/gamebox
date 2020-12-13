@@ -19,9 +19,8 @@ const Cards = (props) => {
         <CardItem key={product.productId} product={product} />
       ));
     else if (props.filter === "Desktop") {
-      products = products.filter(
-        (product) =>
-          product.name.match(/(Desktop)/i) || product.name.match(/(pc)/i)
+      products = products.filter((product) =>
+        product.name.match(/(Desktop|pc)/i)
       );
       return products.map((product) => (
         <CardItem key={product.productId} product={product} />
