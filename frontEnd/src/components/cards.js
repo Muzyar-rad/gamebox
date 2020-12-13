@@ -20,7 +20,7 @@ const Cards = (props) => {
       ));
     else if (props.filter === "Desktop") {
       products = products.filter((product) =>
-        product.name.match(/(Desktop|pc)/i)
+        product.name.match(/(Desktop|PC)/i)
       );
       return products.map((product) => (
         <CardItem key={product.productId} product={product} />
@@ -31,7 +31,9 @@ const Cards = (props) => {
         <CardItem key={product.productId} product={product} />
       ));
     } else if (props.filter === "Gear") {
-      products = products.filter((product) => product.name.match(/(Laptop)/i));
+      products = products.filter((product) =>
+        product.name.match(/(Desktop|PC|Desktop)/i)
+      );
       return products.map((product) => (
         <CardItem key={product.productId} product={product} />
       ));
