@@ -13,29 +13,28 @@ const Cards = (props) => {
     getProductList();
   }, []);
 
-  const getFilteredData = (products) => {
-    const mappedProducts = products.map((product) => (
-      <CardItem key={product.productId} product={product} />
-    ));
-    if (props.filter === "") return mappedProducts;
+  const getFilteredProducts = (products) => {
+    const mappedProducts = (products) =>
+      products.map((product) => (
+        <CardItem key={product.productId} product={product} />
+      ));
+    const filteredProducts = (regex) =>
+      (products = products.filter((product) => product.name.match(regex)));
+    if (props.filter === "") return mappedProducts(products);
     else if (props.filter === "Desktop") {
-      products = products.filter((product) =>
-        product.name.match(/(Desktop|PC)/i)
-      );
-      return mappedProducts;
+      filteredProducts(/(Desktop|PC)/i);
+      return mappedProducts(products);
     } else if (props.filter === "Laptop") {
-      products = products.filter((product) => product.name.match(/(Laptop)/i));
-      return mappedProducts;
+      filteredProducts(/(Laptop)/i);
+      return mappedProducts(products);
     } else if (props.filter === "Gear") {
-      products = products.filter(
-        (product) => !product.name.match(/(Desktop|PC|Laptop)/i)
-      );
-      return mappedProducts;
+      filteredProducts(/^(?!.*Desktop|.*PC|.*Laptop).*$/i);
+      return mappedProducts(products);
     }
   };
   return (
     <React.Fragment>
-      <div className="card-deck p-5">{getFilteredData(products)}</div>
+      <div className="card-deck p-5">{getFilteredProducts(products)}</div>
     </React.Fragment>
   );
 };
