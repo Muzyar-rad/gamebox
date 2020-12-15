@@ -14,29 +14,23 @@ const Cards = (props) => {
   }, []);
 
   const getFilteredData = (products) => {
-    if (props.filter === "")
-      return products.map((product) => (
-        <CardItem key={product.productId} product={product} />
-      ));
+    const mappedProducts = products.map((product) => (
+      <CardItem key={product.productId} product={product} />
+    ));
+    if (props.filter === "") return mappedProducts;
     else if (props.filter === "Desktop") {
       products = products.filter((product) =>
         product.name.match(/(Desktop|PC)/i)
       );
-      return products.map((product) => (
-        <CardItem key={product.productId} product={product} />
-      ));
+      return mappedProducts;
     } else if (props.filter === "Laptop") {
       products = products.filter((product) => product.name.match(/(Laptop)/i));
-      return products.map((product) => (
-        <CardItem key={product.productId} product={product} />
-      ));
+      return mappedProducts;
     } else if (props.filter === "Gear") {
       products = products.filter(
         (product) => !product.name.match(/(Desktop|PC|Laptop)/i)
       );
-      return products.map((product) => (
-        <CardItem key={product.productId} product={product} />
-      ));
+      return mappedProducts;
     }
   };
   return (
