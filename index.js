@@ -1,9 +1,8 @@
 const express = require("express");
 const config = require("config");
-const { dbConnection } = require("./startup/db");
 const app = express();
 
-dbConnection();
+require("./startup/db").dbConnection();
 require("./startup/cors")(app);
 require("./startup/routes")(app);
 
