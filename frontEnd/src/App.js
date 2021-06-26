@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
 import WelcomeModal from "./components/welcomeModal";
 import Header from "./components/header";
@@ -9,7 +9,7 @@ import CheckOut from "./components/checkOut";
 import Footer from "./components/footer";
 import "./css/App.css";
 function App() {
-  const [modalShow, setModalShow] = React.useState(true);
+  const [modalShow, setModalShow] = useState(true);
   return (
     <div>
       <WelcomeModal show={modalShow} onHide={() => setModalShow(false)} />
